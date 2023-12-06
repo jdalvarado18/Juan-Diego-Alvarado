@@ -3,18 +3,24 @@ project:
   output-dir: docs
 
 website:
-  title: "JD Website"
+  title: "Juan Diego Alvarado"
   navbar:
     left:
-      - href: index.qmd
+      - href: index.md
         text: Home
-      - about.qmd
+      - href: CV.md
+        text: CV
+      - href: text.qmd
+        text: Text Analysis
+      - href: Research.md
+        text: Research
+      - href: https://github.com/jdalvarado18/ASDS
+        text: GVPT729B
 
 format:
   html:
-    theme: vapor
+    theme: solar
     css: styles.css
     toc: true
 
 editor: visual
-
